@@ -4,7 +4,7 @@ const imageEl = document.querySelector('.image-test');
 const likeEl = document.querySelector('.likes');
 const likeButtonEl = document.querySelector('.like-button');
 const unlikeButtonEl = document.querySelector('.unlike-button');
-const client_id = '-ZA0t8PevJrEtEz2EIW9FU0d0fathO-P5PLbSTb8NRw';
+const client_id = 'Your token';
 let isFetching = false;
 
 const initialLikes = `[
@@ -45,7 +45,7 @@ likeButtonEl.addEventListener('click', function (e) {
         likess[indexLike].likes = likesCount;
         savaData(likess, likesLocalStorageKey);
         buttonsReset();
-        
+
     } else {
         likess.push({ id, likes });
         savaData(likess, likesLocalStorageKey);
