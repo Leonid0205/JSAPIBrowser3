@@ -19,8 +19,8 @@ body {
 }
 
 .like-buttons {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 button {
@@ -28,16 +28,6 @@ button {
   background: transparent;
   cursor: pointer;
 }
-
-.like-button:hover {
-  fill: red;
-  transition: 0.5 ease-in-out;
-}
-
-/* svg {
-    width: var(--svg-size);
-    height: var(--svg-size);
-} */
 
 .disabled {
   display: none;
